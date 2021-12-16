@@ -1,3 +1,4 @@
+
 const data = [
     {
         id: 1,
@@ -38,7 +39,7 @@ const data = [
         id: 6,
         price: 1500,
         title: "Poco Cover",
-        image: "./images11.jpg",
+        image: "./images/11.jpg",
         description: "Camera Protection Smoke Case for Poco M3 Back Cover Phone Case.This Smoke Cover Camera position surrounding area is higher than the Surface,"
     }
 ]
@@ -54,7 +55,7 @@ const handleDecrease = ()=>{
    let mainValue2 = document.getElementById("dynamic-text").value;
     let newValue2 = mainValue2 ? mainValue2 : 1;
     if(newValue2 < 1){
-        newValue = 0;
+        newValue2 = 0;
     }else{
         newValue2 --;
     }
@@ -92,8 +93,6 @@ const handleBuy = ()=>{
 }
  
 const handleClick = (id)=>{
-    // window.location.replace("./hello.html");
-    // alert("clicked")
     const queryId = id;
     const selectedProduct = data.find(d => d.id === queryId);
     let mainPage = document.getElementById("main-page");
