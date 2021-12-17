@@ -113,7 +113,6 @@ const handleClick = (id)=>{
         </div>
     </div>
 </div>`
-    console.log(mainPage.classList);
 
     // document.getElementById("selected-product")
     // alert("vanish");

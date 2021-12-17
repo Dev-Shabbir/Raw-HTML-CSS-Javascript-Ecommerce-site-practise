@@ -15,7 +15,7 @@ And I'll also share what I've learnt doing this project.
 Those who are lerner Stay tuned.
 Shabbir.
 
-# The live site link is - https://dev-shabbir.github.io/Raw-HTML-CSS-Javascript-Ecommerce-site-practise/
+# The live site link is -https://dev-shabbir.github.io/Raw-HTML-CSS-Javascript-Ecommerce-site-practise/first_page.html
 
 N:B: currently the site is not responsive. Please open it on computer on a device which have a viewport of 1200px or higher.
 
